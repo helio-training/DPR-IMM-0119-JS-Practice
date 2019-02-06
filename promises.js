@@ -3,12 +3,12 @@ const chef = (order) => {
     let meal = new Promise((resolve, reject) => {
         setTimeout(() => { 
             if (order === 'Pizza'){
-                resolve(`Enjoy your ${order}!`)
+                resolve(`${order} made!`)
             } else{
                 reject('We dropped your food.... Oops')
             }
             console.log('Promise Complete')
-        }, 3000)
+        }, 5000)
     })
     return meal 
 }
@@ -16,14 +16,20 @@ const chef = (order) => {
 // Table - Client
 const guest = async () => {
     console.log('Sitting at Table')
-    const order = await chef('Hamburger')
+    const order = await chef('Pizza')
         .then((data) => {
-            console.log(`${data}`);
+            console.log(`Enjoy your ${data}!`);
             return data
         }).catch((error) => {
             console.log(error)
         })
-    console.log('Ate food:', order)
+    console.log('Eating food:', order)
+    const eating = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve('Ate food')
+        }, 4000)
+    })
+    await eating.then(data => console.log(data))
 }
 
 const main = async () => {
