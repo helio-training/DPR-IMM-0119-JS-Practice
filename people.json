@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Neil deGrasse Tyson",
+        "birthYear": 1958,
+        "ed": "Columbia University",
+        "quotes": [
+            "The good thing about science is that it's true whether or not you believe in it.",
+            "We are part of this universe; we are in this universe, but perhaps more important than both of those facts, is that the universe is in us.",
+            "Curious that we spend more time congratulating people who have succeeded than encouraging people who have not."
+        ]
+    },
+    {
+        "name": "Carl Sagan",
+        "birthYear": 1934,
+        "ed": "University of Chicago",
+        "quotes": [
+            "Somewhere, something incredible is waiting to be known.",
+            "We're made of star stuff. We are a way for the cosmos to know itself.",
+            "For small creatures such as we the vastness is bearable only through love."
+        ]
+    },
+    {
+        "name": "Albert Einstein",
+        "birthYear": 1879,
+        "ed": "University of Zurich",
+        "quotes": [
+            "Imagination is more important than knowledge.",
+            "Life is like riding a bicycle. To keep your balance you must keep moving.",
+            "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe."
+        ]
+    },
+    {
+        "name": "Steven Hawking",
+        "birthYear": 1942,
+        "ed": "University of Cambridge",
+        "quotes": [
+            "Intelligence is the ability to adapt to change.",
+            "Life would be tragic if it weren't funny.",
+            "I have noticed even people who claim everything is predestined, and that we can do nothing to change it, look before they cross the road."
+        ]
+    },
+    {
+        "name": "Michio Kaku",
+        "birthYear": 1947,
+        "ed": "Harvard University",
+        "quotes": [
+            "Physicists are made of atoms. A physicist is an attempt by an atom to understand itself.",
+            "In some sense, gravity does not exist; what moves the planets and the stars is the distortion of space and time.",
+            "The brain weighs only three pounds, yet it is the most complex object in the solar system."
+        ]
+    }
+]
